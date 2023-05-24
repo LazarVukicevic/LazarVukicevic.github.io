@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'home/styles.css' %}">
+    <title>Lazar Vukicevic</title>
+</head>
+<body>
+    <div class="main">
+        <img src="{% static 'home/dune.jpg' %}" alt="Picture of Lazar" id="lazarimg">
+        <h1>Lazar Vukicevic</h1>
+        <ul>
+            <li>Home</li>
+            <li>Projects</li>
+            <li>Resume</li>
+            <li>Contact</li>
+        </ul>
+        <br>
+        <h3>Hello! &#128075;</h3>
+        <p>
+            I'm Lazar, a 2nd year computer science student studying at Brock University, living in Hamilton, Ontario. 
+        </p>
+        <p>
+            Explore my website to learn more about me and my projects.
+        </p>
+    </div>
+</body>
+</html>
